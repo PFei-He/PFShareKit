@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1F8E40196391750099FD3F /* PFShareRegisterApp.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F8E3F196391750099FD3F /* PFShareRegisterApp.m */; };
+		CE2EF3471962D6250000F09B /* PFShareAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EF33A1962D6250000F09B /* PFShareAuthorizeView.m */; };
+		CE2EF3481962D6250000F09B /* PFShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EF33E1962D6250000F09B /* PFShareManager.m */; };
+		CE2EF3491962D6250000F09B /* PFShareRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EF3401962D6250000F09B /* PFShareRequest.m */; };
+		CE2EF34A1962D6250000F09B /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2EF3441962D6250000F09B /* libWeChatSDK.a */; };
 		CE8B12C6193F028E00F8EA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8B12C5193F028E00F8EA2D /* Foundation.framework */; };
 		CE8B12C8193F028E00F8EA2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8B12C7193F028E00F8EA2D /* CoreGraphics.framework */; };
 		CE8B12CA193F028E00F8EA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8B12C9193F028E00F8EA2D /* UIKit.framework */; };
@@ -19,6 +24,7 @@
 		CE8B12E1193F028F00F8EA2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8B12C9193F028E00F8EA2D /* UIKit.framework */; };
 		CE8B12E9193F029100F8EA2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE8B12E7193F029100F8EA2D /* InfoPlist.strings */; };
 		CE8B12EB193F029100F8EA2D /* PFShareKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B12EA193F029100F8EA2D /* PFShareKitTests.m */; };
+		CE8B1301193F0FD200F8EA2D /* PFTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8B1300193F0FD200F8EA2D /* PFTestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE1F8E3E196391750099FD3F /* PFShareRegisterApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFShareRegisterApp.h; sourceTree = "<group>"; };
+		CE1F8E3F196391750099FD3F /* PFShareRegisterApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFShareRegisterApp.m; sourceTree = "<group>"; };
+		CE2EF3391962D6250000F09B /* PFShareAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFShareAuthorizeView.h; sourceTree = "<group>"; };
+		CE2EF33A1962D6250000F09B /* PFShareAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFShareAuthorizeView.m; sourceTree = "<group>"; };
+		CE2EF33B1962D6250000F09B /* PFShareConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFShareConstants.h; sourceTree = "<group>"; };
+		CE2EF33C1962D6250000F09B /* PFShareKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFShareKit.h; sourceTree = "<group>"; };
+		CE2EF33D1962D6250000F09B /* PFShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFShareManager.h; sourceTree = "<group>"; };
+		CE2EF33E1962D6250000F09B /* PFShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFShareManager.m; sourceTree = "<group>"; };
+		CE2EF33F1962D6250000F09B /* PFShareRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFShareRequest.h; sourceTree = "<group>"; };
+		CE2EF3401962D6250000F09B /* PFShareRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFShareRequest.m; sourceTree = "<group>"; };
+		CE2EF3441962D6250000F09B /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		CE2EF3451962D6250000F09B /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		CE2EF3461962D6250000F09B /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
 		CE8B12C2193F028E00F8EA2D /* PFShareKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PFShareKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8B12C5193F028E00F8EA2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE8B12C7193F028E00F8EA2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +67,8 @@
 		CE8B12E6193F029000F8EA2D /* PFShareKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PFShareKitTests-Info.plist"; sourceTree = "<group>"; };
 		CE8B12E8193F029100F8EA2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE8B12EA193F029100F8EA2D /* PFShareKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFShareKitTests.m; sourceTree = "<group>"; };
+		CE8B12FF193F0FD200F8EA2D /* PFTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFTestView.h; sourceTree = "<group>"; };
+		CE8B1300193F0FD200F8EA2D /* PFTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFTestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +78,7 @@
 			files = (
 				CE8B12C8193F028E00F8EA2D /* CoreGraphics.framework in Frameworks */,
 				CE8B12CA193F028E00F8EA2D /* UIKit.framework in Frameworks */,
+				CE2EF34A1962D6250000F09B /* libWeChatSDK.a in Frameworks */,
 				CE8B12C6193F028E00F8EA2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +96,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2EF3371962D6250000F09B /* PFShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE2EF3381962D6250000F09B /* PFShareKit */,
+				CE2EF3411962D6250000F09B /* SDK */,
+			);
+			path = PFShareKit;
+			sourceTree = "<group>";
+		};
+		CE2EF3381962D6250000F09B /* PFShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				CE2EF3391962D6250000F09B /* PFShareAuthorizeView.h */,
+				CE2EF33A1962D6250000F09B /* PFShareAuthorizeView.m */,
+				CE2EF33B1962D6250000F09B /* PFShareConstants.h */,
+				CE2EF33C1962D6250000F09B /* PFShareKit.h */,
+				CE2EF33D1962D6250000F09B /* PFShareManager.h */,
+				CE2EF33E1962D6250000F09B /* PFShareManager.m */,
+				CE1F8E3E196391750099FD3F /* PFShareRegisterApp.h */,
+				CE1F8E3F196391750099FD3F /* PFShareRegisterApp.m */,
+				CE2EF33F1962D6250000F09B /* PFShareRequest.h */,
+				CE2EF3401962D6250000F09B /* PFShareRequest.m */,
+			);
+			path = PFShareKit;
+			sourceTree = "<group>";
+		};
+		CE2EF3411962D6250000F09B /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CE2EF3431962D6250000F09B /* WeChatSDK_1.4.2.1 */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		CE2EF3431962D6250000F09B /* WeChatSDK_1.4.2.1 */ = {
+			isa = PBXGroup;
+			children = (
+				CE2EF3441962D6250000F09B /* libWeChatSDK.a */,
+				CE2EF3451962D6250000F09B /* WXApi.h */,
+				CE2EF3461962D6250000F09B /* WXApiObject.h */,
+			);
+			path = WeChatSDK_1.4.2.1;
+			sourceTree = "<group>";
+		};
 		CE8B12B9193F028E00F8EA2D = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +175,10 @@
 			children = (
 				CE8B12D4193F028E00F8EA2D /* AppDelegate.h */,
 				CE8B12D5193F028E00F8EA2D /* AppDelegate.m */,
+				CE8B12FF193F0FD200F8EA2D /* PFTestView.h */,
+				CE8B1300193F0FD200F8EA2D /* PFTestView.m */,
 				CE8B12D7193F028E00F8EA2D /* Images.xcassets */,
+				CE2EF3371962D6250000F09B /* PFShareKit */,
 				CE8B12CC193F028E00F8EA2D /* Supporting Files */,
 			);
 			path = PFShareKit;
@@ -239,8 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2EF3471962D6250000F09B /* PFShareAuthorizeView.m in Sources */,
 				CE8B12D6193F028E00F8EA2D /* AppDelegate.m in Sources */,
+				CE8B1301193F0FD200F8EA2D /* PFTestView.m in Sources */,
 				CE8B12D2193F028E00F8EA2D /* main.m in Sources */,
+				CE1F8E40196391750099FD3F /* PFShareRegisterApp.m in Sources */,
+				CE2EF3481962D6250000F09B /* PFShareManager.m in Sources */,
+				CE2EF3491962D6250000F09B /* PFShareRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +372,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: chan hu (T7UAAX3347)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chan hu (T7UAAX3347)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -314,8 +389,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "F2BD83D4-7E2E-4450-9F4C-84A7A295BB60";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,7 +413,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: chan hu (T7UAAX3347)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: chan hu (T7UAAX3347)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -347,7 +424,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "F2BD83D4-7E2E-4450-9F4C-84A7A295BB60";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -362,6 +440,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PFShareKit/PFShareKit-Prefix.pch";
 				INFOPLIST_FILE = "PFShareKit/PFShareKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PFShareKit/PFShareKit-0.1.0/SDK/libWeiboSDK",
+					"$(PROJECT_DIR)/PFShareKit/PFShareKit-0.1.0/SDK/WeChatSDK_1.4.2.1",
+					"$(PROJECT_DIR)/PFShareKit/PFShareKit/SDK/WeChatSDK_1.4.2.1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +460,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PFShareKit/PFShareKit-Prefix.pch";
 				INFOPLIST_FILE = "PFShareKit/PFShareKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PFShareKit/PFShareKit-0.1.0/SDK/libWeiboSDK",
+					"$(PROJECT_DIR)/PFShareKit/PFShareKit-0.1.0/SDK/WeChatSDK_1.4.2.1",
+					"$(PROJECT_DIR)/PFShareKit/PFShareKit/SDK/WeChatSDK_1.4.2.1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -439,6 +531,7 @@
 				CE8B12F0193F029100F8EA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE8B12F1193F029100F8EA2D /* Build configuration list for PBXNativeTarget "PFShareKitTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +540,7 @@
 				CE8B12F3193F029100F8EA2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

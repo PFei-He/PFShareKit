@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "PFTestView.h"
+#import "PFShareKit.h"
 
 @implementation AppDelegate
 
@@ -15,6 +17,18 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    PFTestView *v = [[PFTestView alloc] init];
+    self.window.rootViewController = v;
+
+    //注册App
+    [PFShareRegisterApp registerWithSinaWeiboAppKey:@"" appSecret:@"" appRedirectURI:@""];
+    [PFShareRegisterApp registerWithTencentWeiboAppKey:@"" appSecret:@"" appRedirectURI:@""];
+    [PFShareRegisterApp registerWithQzoneAppKey:@"" appSecret:@"" appRedirectURI:@""];
+    [PFShareRegisterApp registerWithWeChatAppKey:@"" appSecret:@"" appRedirectURI:@""];
+    [PFShareRegisterApp registerWithQQAppKey:@"" appSecret:@"" appRedirectURI:@""];
+    [PFShareRegisterApp registerWithDoubanboAppKey:@"" appSecret:@"" appRedirectURI:@""];
+    [PFShareRegisterApp registerWithRenrenboAppID:@"" appKey:@"" appSecret:@"" appRedirectURI:@""];
+
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -44,6 +58,16 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    return [PFShareManager handleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    return [PFShareManager handleOpenURL:url];
 }
 
 @end
